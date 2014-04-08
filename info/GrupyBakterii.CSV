@@ -1,0 +1,18 @@
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954528,'VRE  ','VRE',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954529,'MBL  ','MBL',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954530,'KPC  ','KPC',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954531,'AMPC ','AMPC',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954532,'ESA  ','ESA',0);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954533,'WAMPE','AMPE',0);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954534,'EMP  ','EMP',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (955657,'MOP  ','MOP- nazwa',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954535,'ESBL ','ESBL',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954536,'HLAR ','HLAR',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954537,'MRSA ','MRSA',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (955658,'AOPIS','AOPIS',0);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954538,'MRS  ','MRS',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954539,'STAG ','STAG',0);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954563,'BLNAR','BLNAR',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954564,'MLSB ','MLSB',1);
+insert into grupybakterii (ID,SYMBOL,NAZWA,MECHANIZMOPORNOSCIOWY) values (954565,'PENAZ','Penicylinaza',1);
+	

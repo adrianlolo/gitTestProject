@@ -1,0 +1,8 @@
+del 0  -- jak usuniete to id tego rekordu
+dc -- currenttimestap (przy zakladaniu)
+dd -- null  (timestamp przy ususniecu)
+pc -- 0 (przy zakladaniu)
+pd -- 0 (przy usuwaniu, null na poczatku )
+
+ujadnolic
+

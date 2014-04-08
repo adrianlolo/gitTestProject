@@ -1,0 +1,21 @@
+strony:
+  login:
+    title:      Wybór bazy
+    template:   login.tpl
+    script:     autocomplete.php
+  main:
+    title:      Edytor
+    template:   main.tpl
+    script:     loader.php
+
+#title:         tytuł strony (do HEAD)  
+#script:        skrypt wywoływany przed renderowaniem strony
+#template:      szabln używany do renderowania strony
+#hidden:        czy strona ukryta w opisie struktury
+#pages:         lista podston
+#redirect:      przekierowanie zamiast renderowania
+#alias:         załadowanie innej strony zamiast
+#menu:          czy strona ma wystepowac w menu
+#arguments:
+#search:
+#cache:

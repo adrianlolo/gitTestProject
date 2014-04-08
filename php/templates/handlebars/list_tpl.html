@@ -1,0 +1,14 @@
+{{#each lista}}
+<div class="grupa level-{{poziom}}">
+    {{#if isparent}}
+    <span class="plus"><i class="icon-expand-alt icon-collapse-alt"></i></span>
+    {{/if}}
+    <li class="elem {{#if isparent}}parent{{/if}}{{#unless moznawybrac}} niewybieralne{{/unless}}">
+        {{#ifCond tabela '==' 'bakterie'}}
+        <input class="uzywane" type="checkbox" {{#if uzywaneid}}checked="checked"{{/if}}>
+        {{/ifCond}}
+        <span class="symbol">({{symbol}})</span>
+        <span class="nazwa">{{nazwa}}</span>
+    </li>
+</div>
+{{/each}}

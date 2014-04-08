@@ -1,0 +1,49 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin box_shadow($shadow) {
+  -webkit-box-shadow: $shadow;
+  -moz-box-shadow: $shadow;
+  box-shadow: $shadow;
+}
+
+@mixin box_shadow2($shadow1, $shadow2) {
+  -webkit-box-shadow: $shadow1, $shadow2;
+  -moz-box-shadow: $shadow1, $shadow2;
+  box-shadow: $shadow1, $shadow2;
+}
+
+@mixin transition($trans) {
+  -webkit-transition: $trans;
+  -moz-transition: $trans;
+  -o-transition: $trans;
+  -ms-transition: $trans;
+  transition: $trans;
+}
+
+@mixin vertical-gradient($startColor, $endColor) {
+  background-color: mix($startColor, $endColor, 60%);
+  background-image: -moz-linear-gradient(top, $startColor, $endColor);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from($startColor), to($endColor));
+  background-image: -webkit-linear-gradient(top, $startColor, $endColor);
+  background-image: -o-linear-gradient(top, $startColor, $endColor);
+  background-image: linear-gradient(to bottom, $startColor, $endColor);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($startColor)}', endColorstr='#{ie-hex-str($endColor)}', GradientType=0);
+}
+
+@mixin gradient-with-border($color) {
+  @include vertical-gradient(lighten($color, 10%), darken($color, 10%));
+  border: solid 1px lighten($color, 5%);
+  border-color: rgba(lighten($color, 5%), .6) rgba(lighten($color, 5%), .6) rgba(darken($color, 5%), .6);
+  @include border-radius(5px);
+}
+@mixin gradient-with-border-reverse($color) {
+  @include vertical-gradient(darken($color, 10%), lighten($color, 10%));
+  border: solid 1px darken($color, 5%);
+  border-color: rgba(darken($color, 5%), .6) rgba(darken($color, 5%), .6) rgba(lighten($color, 5%), .6);
+  @include border-radius(5px);
+}

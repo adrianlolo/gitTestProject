@@ -1,0 +1,1 @@
+'localhost:c:\\xampp\\db\\ICD-10.FDB','localhost:c:\\xampp\\db\\BAKTERIE.FDB','localhost:c:\\xampp\\db\\SLOWNIKI.FDB'

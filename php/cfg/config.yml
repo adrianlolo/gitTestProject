@@ -1,0 +1,61 @@
+# lista plikow do wywolania z poziomu strony
+ajax:
+  login:    login.php
+  logout:   logout.php
+  api:      api.php
+  reload:   loader.php
+  exportDoPliku: exportDoPliku.php
+  exportDoBazy: doBazy.php
+  download: download.php
+
+
+# Tabele do wyboru przy logowaniu
+tabele:
+  bakterie:
+    caption: Bakterie
+    name:    bakterie
+  kodyrozpoznan:
+    caption: Kody rozpoznań
+    name:    kodyrozpoznan
+  kodyprocedur:
+    caption: Kody procedur
+    name:    kodyprocedur
+
+# Tabele mozliwe do wyeksportowania
+exports:
+  -
+    caption: Bakterie
+    table:   bakterie
+  -
+    caption: Używane bakterie
+    table: uzywanebakterie
+  -
+    caption: Bakterie + Używane bakterie
+    table:
+      - bakterie  
+      - uzywanebakterie
+  -
+    caption: Bakterie w grupach
+    table:   bakteriewgrupach
+  -
+    caption: Grupy bakterii
+    table:   grupybakterii
+  -
+    caption: Grupy bakterii + Bakterie w grupach
+    table:
+      - grupybakterii  
+      - bakteriewgrupach
+  -
+    caption: Kody rozpoznań
+    table:   kodyrozpoznan
+  -
+    caption: Kody procedur
+    name:    kodyprocedur
+
+
+# Ustawenia logowania do bazy
+dbsettings:
+  user: sysdba
+  pass: masterkey
+
+# sortowanie 0 - wg. symbolu, 1 - wg. id
